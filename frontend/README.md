@@ -92,3 +92,9 @@ docs/architecture.md
 See:
 
 docs/resume_project_description.md
+
+## Interview Q&A
+
+See:
+
+docs/interview_qa.md
