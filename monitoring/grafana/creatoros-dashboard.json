@@ -1,0 +1,69 @@
+{
+  "title": "CreatorOS AI Platform Dashboard",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "5s",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "LangGraph Runs",
+      "targets": [
+        {
+          "expr": "creatoros_graph_runs_total"
+        }
+      ],
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "API Requests",
+      "targets": [
+        {
+          "expr": "creatoros_requests_total"
+        }
+      ],
+      "gridPos": {
+        "x": 6,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Tool Calls",
+      "targets": [
+        {
+          "expr": "creatoros_tool_calls_total"
+        }
+      ],
+      "gridPos": {
+        "x": 12,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Request Latency",
+      "targets": [
+        {
+          "expr": "creatoros_request_latency_seconds_bucket"
+        }
+      ],
+      "gridPos": {
+        "x": 0,
+        "y": 5,
+        "w": 12,
+        "h": 8
+      }
+    }
+  ]
+}
