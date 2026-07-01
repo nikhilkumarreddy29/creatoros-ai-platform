@@ -86,3 +86,9 @@ docs/architecture.md
 | Python | 3.12 |
 | Architecture | Multi-Agent + LangGraph + RAG |
 | Status | Production Ready |
+
+## Resume Description
+
+See:
+
+docs/resume_project_description.md
