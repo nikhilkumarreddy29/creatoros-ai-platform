@@ -23,7 +23,7 @@ from backend.routes.mcp_routes import router as mcp_router
 from backend.routes.system_routes import router as system_router
 from backend.routes.prometheus_routes import router as prometheus_router
 from backend.observability.tracing import setup_tracing
-
+from backend.routes.version_routes import router as version_router
 
 app=FastAPI(
     title=settings.APP_NAME,
@@ -51,6 +51,7 @@ app.include_router(cache_router)
 app.include_router(mcp_router)
 app.include_router(system_router)
 app.include_router(prometheus_router)
+app.include_router(version_router)
 @app.middleware("http")
 async def metrics_middleware(request: Request, call_next):
     request_id = str(uuid4())

@@ -76,3 +76,13 @@ export default defineConfig([
 See:
 
 docs/architecture.md
+## Version
+
+| Item | Value |
+|------|-------|
+| Version | 1.0.0 |
+| Backend | FastAPI |
+| Frontend | React + TypeScript |
+| Python | 3.12 |
+| Architecture | Multi-Agent + LangGraph + RAG |
+| Status | Production Ready |
