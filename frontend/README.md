@@ -98,3 +98,9 @@ docs/resume_project_description.md
 See:
 
 docs/interview_qa.md
+
+## Final Validation
+
+See:
+
+docs/final_validation_checklist.md
