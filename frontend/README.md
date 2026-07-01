@@ -104,3 +104,9 @@ docs/interview_qa.md
 See:
 
 docs/final_validation_checklist.md
+
+## Security Hardening
+
+See:
+
+docs/security_hardening_checklist.md
