@@ -71,3 +71,8 @@ export default defineConfig([
   },
 ])
 ```
+## Architecture
+
+See:
+
+docs/architecture.md
