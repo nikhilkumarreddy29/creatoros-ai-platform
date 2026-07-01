@@ -110,3 +110,15 @@ docs/final_validation_checklist.md
 See:
 
 docs/security_hardening_checklist.md
+
+
+## 2. Add README link
+
+In root `README.md`, add:
+
+```markdown
+## Code Cleanup
+
+See:
+
+docs/code_cleanup_checklist.md
